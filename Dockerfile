@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . /app
 
-RUN java sample
+RUN javac Sample.java
 
 CMD ["java","Sample"]
